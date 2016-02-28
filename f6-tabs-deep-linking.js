@@ -16,7 +16,7 @@ if(window.location.hash) {
     var f6dl_hash = f6dl_url.substring(f6dl_url.indexOf("#")+1);
     if($('#'+f6dl_hash).length) {
         // Insert id of the <ul> that holds the links to the tabs
-        var f6dl_ulid = 'accont-tabs';
+        var f6dl_ulid = 'account-tabs';
         $('#' + f6dl_ulid).find('a').each(function(e) {
             var f6dl_href = $(this).attr('href');
             if(f6dl_href == "#"+f6dl_hash) {
